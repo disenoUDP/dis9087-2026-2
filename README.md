@@ -1,8 +1,9 @@
-# Dispositivos Periféricos
+# Dispositivos Periféricos y Plataformas para la Interacción
 
-DIS9078
+**DIS9078**
 
 docente: Felipe Roa
+
 ayudante: Santiago Gaete
 
 Primera clase en la sala 104
