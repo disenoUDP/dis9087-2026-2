@@ -4,8 +4,6 @@
 
 presentación del curso
 
-## dispositivos periféricos de y plataformas para la interacción digital
-
 fenómeno físico ≠ experiencia perceptual
 
 conceptos importantes:
