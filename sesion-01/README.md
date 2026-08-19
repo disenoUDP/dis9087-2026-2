@@ -22,3 +22,5 @@ esta sigue siendo una imagen antropocentrista, es **como los humanos creemos que
 - [Semiótica](https://es.wikipedia.org/wiki/Semiolog%C3%ADa)
 - [Meta glasses y el acoso callejero](https://elpais.com/tecnologia/2026-07-31/gafas-de-pervertido-meta-ya-no-sabe-como-frenar-las-burlas-y-recelos-hacia-su-producto-estrella.html)
 - [Centros de datos en Quilicura y el uso del agua](https://radio.uchile.cl/2026/03/04/el-agua-que-usa-la-ia-es-chilena-vecinos-de-quilicura-alegan-falta-de-responsabilidad-de-data-centers/)
+- Merleau-Ponty, M. Prólogo de Fenomenología de la percepción. Barcelona: Planeta-De Agostini, 1993.
+Winner, L. "¿Tienen política los artefactos?", en La ballena y el reactor. Barcelona: Gedisa, 1987.

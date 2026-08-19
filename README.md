@@ -1,6 +1,6 @@
-# Dispositivos Periféricos y Plataformas para la Interacción
+# Dispositivos Periféricos y Plataformas para la Interacción Digital
 
-**DIS9078**
+**DIS9087**
 
 docente: Felipe Roa
 
@@ -20,3 +20,9 @@ Primera clase en la sala 104
 6. plagios y citas: toda información presentada debe incluir su origen o cita
 7. uso de IA: cuando se promueva su uso se debe declarar. Se debe respetar cuando se solicita su no uso
 8. registro audiovisual: deben contar con una bitácora con registro audiovisual de cada una de las actividades en clase y fuera de ella
+
+## enlaces
+
+- [sesion-01](./sesion-01/README.md)
+
+- [tareas](./tareas/README.md)
