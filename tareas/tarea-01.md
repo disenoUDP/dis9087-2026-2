@@ -82,7 +82,7 @@ comentario: confusión entre dato interpretado y dato que produce
 ### grupo-6: alarma de incendios
 
 - Andrés Abril
-- Fernanda Ángel
+- [Fernanda Ángel]
 - Josefa Araya
 - Débora Soto
 - Yurineth Vargas
