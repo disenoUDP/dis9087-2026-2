@@ -24,7 +24,7 @@ openCV abre la cámara y permite hacer correlaciones.
 
 detecta manos, rostros, posturas, objetos, gestos, audio, texto.
 
-mediaPie le da esqueleto al mundo, y openCV hace los cálculos matemáticos para saber al distancia entre los puntos(y con ello saber qué gesto es)
+mediaPipe le da esqueleto al mundo, y openCV hace los cálculos matemáticos para saber al distancia entre los puntos(y con ello saber qué gesto es)
 
 ![Esqueleto de la mano de MediaPipe](./img/puntos-mano-mediaPipe.png)
 
