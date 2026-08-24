@@ -23,36 +23,36 @@ Sala 104, Salvador Sanfuente 2221.
 
 ## repositorios curso
 
-ANDRÉS A.
-[ANTO A.](https://github.com/antoace67)
-[ISIDORA A.](https://github.com/isidoraalvarez)
-FERNANDA A.
-[JOSEFA A.](https://github.com/josefa-kristina)
-[VALENTINA A.](https://github.com/valentina-araya)
-[FACUNDO C.](https://github.com/Fcartus)
-IGNACIO C.
-LUCÍA C.
-FERNANDA C.
-VICTORIA F.
-MARTÍN G.
-NOELIA L.
-CARLOS M.
-MATÍAS M.
-[HUGO M.](https://github.com/hugosmontoya)
-JEFFER M.
-[DAYANA P.](https://github.com/dayanapanitrur)
-[ISIDORA P.](https://github.com/isipm08)
-[CAMILA R.](https://github.com/Estrabismx)
-[KATALINA R.](https://github.com/schwii11)
-CONSTANZA R.
-[DÉBORA S.](https://github.com/DebSkar)
-SEBASTIÁN U.
-JUAN V.
-[YURINETH V.](https://github.com/Aguapanelita)
-DANIEL V.
-BIANKA V.
-[MAITE V.](https://github.com/maiteev)
-MARCELA Z.
+- ANDRÉS A.
+- [ANTO A.](https://github.com/antoace67)
+- [ISIDORA A.](https://github.com/isidoraalvarez)
+- FERNANDA A.
+- [JOSEFA A.](https://github.com/josefa-kristina)
+- [VALENTINA A.](https://github.com/valentina-araya)
+- [FACUNDO C.](https://github.com/Fcartus)
+- IGNACIO C.
+- LUCÍA C.
+- FERNANDA C.
+- VICTORIA F.
+- MARTÍN G.
+- NOELIA L.
+- CARLOS M.
+- MATÍAS M.
+- [HUGO M.](https://github.com/hugosmontoya)
+- JEFFER M.
+- [DAYANA P.](https://github.com/dayanapanitrur)
+- [ISIDORA P.](https://github.com/isipm08)
+- [CAMILA R.](https://github.com/Estrabismx)
+- [KATALINA R.](https://github.com/schwii11)
+- CONSTANZA R.
+- [DÉBORA S.](https://github.com/DebSkar)
+- SEBASTIÁN U.
+- JUAN V.
+- [YURINETH V.](https://github.com/Aguapanelita)
+- DANIEL V.
+- BIANKA V.
+- [MAITE V.](https://github.com/maiteev)
+- MARCELA Z.
 
 ## enlaces
 
