@@ -1,74 +1,27 @@
-<!-- PLANTILLA README — reemplaza todo lo que esté entre {{ }} y borra los comentarios HTML -->
+# Nombre del proyecto
 
-# {{NOMBRE_DEL_PROYECTO}}
+## tarea-02
 
-{{PITCH_EN_UNA_LINEA — qué hace, en qué se ejecuta, si necesita instalación}}
+- **Integrante-1**
+- **Integrante-2**
 
-{{DESCRIPCION_DE_LA_INTERFAZ}}
-- **{{PANEL_1}}** — {{qué muestra}}
-- **{{PANEL_2}}** — {{qué muestra}}
+- Asignatura: Dispositivos Periféricos y Plataformas para la Interacción Digital **DIS8970**
 
-## {{GESTOS / FEATURES}}
+Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado tomando como referencia este repositorio:
 
-<!-- Si el orden importa (ej: prioridad de detección), dilo acá. Si no, borra esta línea. -->
-{{NOTA_SOBRE_EL_ORDEN}}
+- <https://github.com/catherpiee/meowmeowcatcam>
 
-| # | {{COLUMNA_NOMBRE}} | {{COLUMNA_TRIGGER}} |
-|---|---|---|
-| 1 | {{nombre}} | {{cómo se activa}} |
-| 2 | {{nombre}} | {{cómo se activa}} |
-| 3 | {{nombre}} | {{cómo se activa}} |
-<!-- agrega filas según necesites -->
+## Gestos
 
-{{NOTA_SOBRE_ASSETS — dónde viven las imágenes, si alguna se elige al azar}}
+| # | *Nombre* | *Cómo se activa* | *imagen* |
+| --- | --- | --- | --- |
+| 1 | nombre | cómo se activa | imagen |
+| 2 | nombre | cómo se activa | imagen |
+| 3 | nombre | cómo se activa | imagen |
+| 4 | nombre | cómo se activa | imagen |
+| 5 | nombre | cómo se activa | imagen |
+| 6 | nombre | cómo se activa | imagen |
 
-## Instalación / uso — {{VERSION_A (ej: escritorio)}}
+- [carpeta de imágenes](./nombreCarpeta)
 
-Requiere {{DEPENDENCIAS_MINIMAS}}.
-
-{{METODO_FACIL — ej: doble clic al launcher, qué pasa la primera vez}}
-
-<!-- Advertencias del SO, permisos, gatekeeper, etc. Borra si no aplica. -->
-**{{ADVERTENCIA}}:** {{explicación + cómo resolverlo}}
-
-Manual:
-
-```bash
-{{COMANDOS_DE_INSTALACION}}
-{{COMANDO_DE_EJECUCION}}
-```
-
-{{COMO_SALIR / ATAJOS}}
-
-## Instalación / uso — {{VERSION_B (ej: navegador)}}
-
-{{ADVERTENCIA_O_REQUISITO — ej: por qué no basta abrir el archivo directo}}
-
-```bash
-{{COMANDO}}
-```
-
-{{PASO_FINAL — URL, permisos que hay que aceptar, de dónde se cargan los modelos}}
-
-## {{SECCION_DEBUG (opcional)}}
-
-{{QUE_MUESTRA_Y_DONDE}}
-
-```
-{{EJEMPLO_DE_OUTPUT}}
-```
-
-{{PARA_QUE_SIRVE — qué archivo/variable tocar para ajustar}}
-
-## Estructura del proyecto
-
-```
-{{archivo}}          {{qué es}}
-{{archivo}}          {{qué es}}
-{{carpeta/}}         {{qué contiene}}
-```
-
-<!-- Opcionales que quizás quieras agregar: -->
-<!-- ## Créditos / fuentes de las imágenes -->
-<!-- ## Licencia -->
-<!-- ## Problemas conocidos -->
+- [video](./)
