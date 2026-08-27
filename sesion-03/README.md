@@ -56,3 +56,15 @@ Son aquellas que principalmente se alimentan del contexto que el usuario provee.
 - Rol (cuáles son las tareas específicas que debería saber)
 - Expectativa (qué es lo que yo espero que tenga como output)
 - Acotación (extras, por ejemplo, antes de responder que te explique qué va a hacer, o que te haga preguntas respecto a información faltante)
+
+## trabajo en clase
+
+deben modificar el proyecto para que utilicen imágenes elegidas por ustedes, y utilizando gestos nuevos.
+
+mediaPipe puede medir:
+
+- manos
+- expresión facial
+- cuerpo
+
+se pueden repetir hasta 2 gestos y hasta 2 imágenes.

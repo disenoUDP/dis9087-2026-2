@@ -30,16 +30,14 @@ Sala 104, Salvador Sanfuente 2221.
 - [JOSEFA A.](https://github.com/josefa-kristina)
 - [VALENTINA A.](https://github.com/valentina-araya)
 - [FACUNDO C.](https://github.com/Fcartus)
-- IGNACIO C.
 - LUCÍA C.
 - FERNANDA C.
 - VICTORIA F.
 - MARTÍN G.
 - NOELIA L.
 - CARLOS M.
-- MATÍAS M.
 - [HUGO M.](https://github.com/hugosmontoya)
-- JEFFER M.
+- [JEFFER M.](https://github.com/jffudp)
 - [DAYANA P.](https://github.com/dayanapanitrur)
 - [ISIDORA P.](https://github.com/isipm08)
 - [CAMILA R.](https://github.com/Estrabismx)
@@ -47,10 +45,9 @@ Sala 104, Salvador Sanfuente 2221.
 - CONSTANZA R.
 - [DÉBORA S.](https://github.com/DebSkar)
 - SEBASTIÁN U.
-- JUAN V.
+- [JUAN V.](https://github.com/juancho-01)
 - [YURINETH V.](https://github.com/Aguapanelita)
-- DANIEL V.
-- BIANKA V.
+- [DANIEL V.](https://github.com/Lechugaluminio)
 - [MAITE V.](https://github.com/maiteev)
 - MARCELA Z.
 
