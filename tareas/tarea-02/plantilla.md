@@ -5,7 +5,7 @@
 - **Integrante-1**
 - **Integrante-2**
 
-- Asignatura: Dispositivos Periféricos y Plataformas para la Interacción Digital **DIS8970**
+- Asignatura: Dispositivos Periféricos y Plataformas para la Interacción Digital **DIS9087**
 
 Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado tomando como referencia este repositorio:
 
