@@ -21,6 +21,18 @@ Sala 104, Salvador Sanfuente 2221.
 7. uso de IA: cuando se promueva su uso se debe declarar. Se debe respetar cuando se solicita su no uso
 8. registro audiovisual: deben contar con una bitácora con registro audiovisual de cada una de las actividades en clase y fuera de ella
 
+## enlaces
+
+### sesiones
+
+- [sesion-01](./sesion-01/README.md)
+- [sesion-02](./sesion-02/README.md)
+- [sesion-03](./sesion-03/README.md)
+
+### tareas
+
+- [tareas](./tareas/README.md)
+
 ## repositorios curso
 
 - ANDRÉS A.
@@ -51,13 +63,3 @@ Sala 104, Salvador Sanfuente 2221.
 - [MAITE V.](https://github.com/maiteev)
 - MARCELA Z.
 
-## enlaces
-
-### sesiones
-
-- [sesion-01](./sesion-01/README.md)
-- [sesion-02](./sesion-02/README.md)
-
-### tareas
-
-- [tareas](./tareas/README.md)
