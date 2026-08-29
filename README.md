@@ -6,7 +6,7 @@ docente: Felipe Roa
 
 ayudante: Santiago Gaete
 
-Sala 104, Salvador Sanfuente 2221.
+Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 
 - [ASISTENCIA](https://docs.google.com/spreadsheets/d/e/2PACX-1vRnAODRy2m3NzXHqZf4UgEvvxfgg5Wqgl0uVNb7ZMWQJaHkOJFA9JXpzcJ0MWCtYVpL_UGD9aA6XFtE/pubhtml?gid=1197126376&single=true)
 
@@ -62,4 +62,3 @@ Sala 104, Salvador Sanfuente 2221.
 - [DANIEL V.](https://github.com/Lechugaluminio)
 - [MAITE V.](https://github.com/maiteev)
 - MARCELA Z.
-
