@@ -2,7 +2,7 @@
 
 ## revisiones tarea-02
 
-ver en la tarea-02](../tareas/tarea-02/README.md/#revisiones)
+ver en la [tarea-02](../tareas/tarea-02/README.md/#revisiones)
 
 ### Trabajo en clase
 
