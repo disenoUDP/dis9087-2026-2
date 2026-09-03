@@ -28,6 +28,8 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [sesion-01](./sesion-01/README.md)
 - [sesion-02](./sesion-02/README.md)
 - [sesion-03](./sesion-03/README.md)
+- [sesion-04](./sesion-04/README.md)
+
 
 ### tareas
 
@@ -38,16 +40,16 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - ANDRÉS A.
 - [ANTO A.](https://github.com/antoace67)
 - [ISIDORA A.](https://github.com/isidoraalvarez)
-- FERNANDA A.
+- [FERNANDA A.](https://github.com/fernandaangel-cpu)
 - [JOSEFA A.](https://github.com/josefa-kristina)
 - [VALENTINA A.](https://github.com/valentina-araya)
 - [FACUNDO C.](https://github.com/Fcartus)
 - LUCÍA C.
-- FERNANDA C.
-- VICTORIA F.
-- MARTÍN G.
+- [FERNANDA C.](https://github.com/britneyspears-fan)
+- [VICTORIA F.](https://github.com/SolFrias1)
+- [MARTÍN G.](https://github.com/F3rtin)
 - NOELIA L.
-- CARLOS M.
+- [CARLOS M.](https://github.com/CharlesDiner0)
 - [HUGO M.](https://github.com/hugosmontoya)
 - [JEFFER M.](https://github.com/jffudp)
 - [DAYANA P.](https://github.com/dayanapanitrur)
@@ -56,9 +58,9 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [KATALINA R.](https://github.com/schwii11)
 - CONSTANZA R.
 - [DÉBORA S.](https://github.com/DebSkar)
-- SEBASTIÁN U.
+- [SEBASTIÁN U.](https://github.com/Stmvrphy)
 - [JUAN V.](https://github.com/juancho-01)
 - [YURINETH V.](https://github.com/Aguapanelita)
 - [DANIEL V.](https://github.com/Lechugaluminio)
 - [MAITE V.](https://github.com/maiteev)
-- MARCELA Z.
+- [MARCELA Z.](https://github.com/marcezm)
