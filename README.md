@@ -6,7 +6,7 @@ docente: Felipe Roa
 
 ayudante: Santiago Gaete
 
-Sala 104, Salvador Sanfuente 2221.
+Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 
 - [ASISTENCIA](https://docs.google.com/spreadsheets/d/e/2PACX-1vRnAODRy2m3NzXHqZf4UgEvvxfgg5Wqgl0uVNb7ZMWQJaHkOJFA9JXpzcJ0MWCtYVpL_UGD9aA6XFtE/pubhtml?gid=1197126376&single=true)
 
@@ -20,6 +20,18 @@ Sala 104, Salvador Sanfuente 2221.
 6. plagios y citas: toda información presentada debe incluir su origen o cita
 7. uso de IA: cuando se promueva su uso se debe declarar. Se debe respetar cuando se solicita su no uso
 8. registro audiovisual: deben contar con una bitácora con registro audiovisual de cada una de las actividades en clase y fuera de ella
+
+## enlaces
+
+### sesiones
+
+- [sesion-01](./sesion-01/README.md)
+- [sesion-02](./sesion-02/README.md)
+- [sesion-03](./sesion-03/README.md)
+
+### tareas
+
+- [tareas](./tareas/README.md)
 
 ## repositorios curso
 
@@ -50,14 +62,3 @@ Sala 104, Salvador Sanfuente 2221.
 - [DANIEL V.](https://github.com/Lechugaluminio)
 - [MAITE V.](https://github.com/maiteev)
 - MARCELA Z.
-
-## enlaces
-
-### sesiones
-
-- [sesion-01](./sesion-01/README.md)
-- [sesion-02](./sesion-02/README.md)
-
-### tareas
-
-- [tareas](./tareas/README.md)
