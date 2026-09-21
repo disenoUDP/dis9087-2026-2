@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air ONCE  Canvas · Light Painting</title>
+  <meta name="description" content="Dibuja en el aire con una linterna frente a tu cámara web. Versión web del proyecto Air Canvas en Python + OpenCV.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23ffeb00'/%3E%3C/svg%3E">
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Air ONCE Canvas</div>
+      <p>Light painting con realidad aumentada: dibuja en el aire con una linterna.</p>
+      <p class="clase-nueva">ONCEEEEEEEEEEEEEEEE</p>
+    </header>
+
+    <main>
+      <section class="stage" id="stage" data-phase="idle" aria-label="Cámara">
+        <video id="video" playsinline muted></video>
+        <canvas id="view"></canvas>
+
+        <div class="start" id="start">
+          <svg class="trails" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs>
+              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="9"/>
+              </filter>
+              <g id="paths" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M40 360 C 140 200, 230 430, 330 290 S 520 110, 620 210 S 760 330, 780 250" stroke="#ffeb00"/>
+                <path d="M20 120 C 120 60, 200 220, 300 150 S 470 40, 560 110" stroke="#0082ff"/>
+                <path d="M480 420 C 560 330, 640 440, 700 350 S 790 180, 760 90" stroke="#ff1414"/>
+              </g>
+            </defs>
+            <use href="#paths" stroke-width="18" filter="url(#glow)" opacity=".55"/>
+            <use href="#paths" stroke-width="6"/>
+          </svg>
+          <div class="start-inner">
+            <h1>Dibuja con luz frente a tu cámara</h1>
+            <p>Mueve una linterna o una luz pequeña para trazar. Si dejas de moverla 3 segundos, se guarda una captura y cambia el color.</p>
+            <button class="btn btn-primary" id="start-btn" type="button">Activar cámara</button>
+            <p class="error" id="start-error" role="alert" hidden></p>
+            <p class="hint">El video se procesa en tu navegador y no se sube a ningún servidor.</p>
+          </div>
+        </div>
+
+        <div class="calib" id="calib">
+          <div class="calib-card">
+            <h2>Calibrando y aislando reflejos del fondo</h2>
+            <p>Mantén apagada tu linterna durante este proceso.</p>
+            <p class="calib-muted">Aislando muebles reflectantes y luces fijas del fondo…</p>
+            <div class="meter"><div id="calib-fill"></div></div>
+            <p class="calib-stats">Tiempo restante: <b id="calib-time">5.0s</b> · Brillo ambiente medido: <b id="calib-bright">0</b>/255</p>
+          </div>
+        </div>
+
+        <div class="hud" aria-live="off">
+          <div class="timer" id="timer" hidden>
+            <div class="bar"><div class="fill" id="timer-fill"></div></div>
+            <div class="timer-label" id="timer-label"></div>
+          </div>
+
+          <label class="slider pill" id="slider" hidden>
+            Grosor
+            <input type="range" id="thickness" min="1" max="40" value="13">
+            <output id="thickness-value" for="thickness">13px</output>
+          </label>
+
+          <div class="status pill" id="status" data-mode="standby">
+            <span class="lamp" aria-hidden="true"></span>
+            <span id="status-label">STANDBY</span>
+          </div>
+
+          <div class="mask-caption pill" id="mask-caption" hidden></div>
+          <div class="toast" id="toast" role="status" hidden></div>
+
+          <div class="info pill">
+            <span class="swatch" id="swatch"></span>
+            <span id="info-text"></span>
+            <span class="info-hint" id="info-hint"></span>
+          </div>
+        </div>
+
+        <div class="flash" id="flash" aria-hidden="true"></div>
+      </section>
+
+      <div class="toolbar" id="toolbar">
+        <button class="btn" type="button" data-action="save" disabled><kbd>S</kbd>Guardar</button>
+        <button class="btn" type="button" data-action="clear" disabled><kbd>C</kbd>Limpiar</button>
+        <button class="btn" type="button" data-action="mask" aria-pressed="false" disabled><kbd>M</kbd>Máscara</button>
+        <button class="btn" type="button" data-action="slider" aria-pressed="false" disabled><kbd>G</kbd>Grosor</button>
+        <span class="toolbar-sep" aria-hidden="true"></span>
+        <button class="btn chip" type="button" data-action="color" data-index="0" aria-pressed="false" style="--c:#ffeb00" disabled><kbd>1</kbd><i></i>Amarillo</button>
+        <button class="btn chip" type="button" data-action="color" data-index="1" aria-pressed="false" style="--c:#0082ff" disabled><kbd>2</kbd><i></i>Azul</button>
+        <button class="btn chip" type="button" data-action="color" data-index="2" aria-pressed="false" style="--c:#ff1414" disabled><kbd>3</kbd><i></i>Rojo</button>
+        <span class="toolbar-sep" aria-hidden="true"></span>
+        <button class="btn" type="button" data-action="stop" disabled><kbd>Q</kbd>Detener</button>
+      </div>
+
+      <div class="grid">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Capturas <span class="count" id="count">0</span></h2>
+            <span class="spacer"></span>
+            <label class="check"><input type="checkbox" id="auto-download" checked> Descargar automáticamente</label>
+            <button class="btn btn-small" type="button" id="download-all" disabled>Descargar todas</button>
+          </div>
+          <p class="empty" id="gallery-empty">Aún no hay capturas. Se guardan en 1080p (.jpg) al dejar quieta la linterna 3 segundos o al pulsar <kbd>S</kbd>.</p>
+          <ul class="gallery" id="gallery"></ul>
+        </section>
+
+        <section class="panel help">
+          <h2>Cómo usarlo</h2>
+          <ol>
+            <li>Pulsa <b>Activar cámara</b> y acepta el permiso.</li>
+            <li>Durante 5&nbsp;s deja la linterna apagada: se detectan reflejos y luces fijas para ignorarlos.</li>
+            <li>Enciende la linterna y muévela: el punto más brillante dibuja con el color activo.</li>
+            <li>Déjala quieta 3&nbsp;s: se guarda la foto, se limpia el lienzo y el color rota Amarillo → Azul → Rojo.</li>
+          </ol>
+          <p class="tip">Funciona mejor en una habitación con poca luz.</p>
+
+          <h2>Indicadores</h2>
+          <ul class="legend">
+            <li><span class="lamp-demo rec"></span><span><b>REC</b> — linterna detectada, dibujando.</span></li>
+            <li><span class="lamp-demo wait"></span><span><b>ESPERA / RECALIBRANDO</b> — pausa tras una captura; si aparecen reflejos nuevos se alarga para ignorarlos.</span></li>
+            <li><span class="lamp-demo standby"></span><span><b>STANDBY</b> — esperando a que enciendas la linterna.</span></li>
+          </ul>
+
+          <h2>Teclado</h2>
+          <table>
+            <tr><td><kbd>G</kbd></td><td>Muestra u oculta el slider de grosor.</td></tr>
+            <tr><td><kbd>S</kbd></td><td>Guarda una captura, inicia la espera y pasa al siguiente color.</td></tr>
+            <tr><td><kbd>C</kbd></td><td>Limpia el lienzo.</td></tr>
+            <tr><td><kbd>M</kbd></td><td>Vista de máscara: puntero en blanco, reflejos ignorados en rojo.</td></tr>
+            <tr><td><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd></td><td>Amarillo, Azul, Rojo.</td></tr>
+            <tr><td><kbd>Q</kbd> / <kbd>Esc</kbd></td><td>Detiene la cámara.</td></tr>
+          </table>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot">
+      Versión web del proyecto <b>Air Canvas</b> en Python + OpenCV. Todo el procesamiento ocurre en tu navegador.
+    </footer>
+  </div>
+
+  <noscript><p class="noscript">Esta página necesita JavaScript para acceder a la cámara.</p></noscript>
+</body>
+</html>

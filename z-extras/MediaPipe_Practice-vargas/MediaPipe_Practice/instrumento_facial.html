@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instrumento facial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="index.html">← Volver</a>
+  <h1>Instrumento facial</h1>
+  <p>Abre la boca para subir el tono y abre los ojos para subir el volumen. Activa el sonido de tu dispositivo.</p>
+  <button id="iniciar">Iniciar cámara y sonido</button>
+  <canvas id="lienzo"></canvas>
+  <p>Tono (Boca): <span id="tono">0</span> Hz</p>
+  <meter id="barraTono" min="200" max="1000" value="200"></meter>
+  <p>Volumen (Ojos): <span id="volumen">0</span>%</p>
+  <meter id="barraVolumen" min="0" max="0.4" value="0"></meter>
+  <script type="module" src="instrumento_facial.js"></script>
+</body>
+</html>
