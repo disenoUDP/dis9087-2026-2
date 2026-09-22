@@ -11,7 +11,6 @@ hablamos sobre vs code, HTML, CSS y JavaScript.
 ## links
 
 - [vs code](https://code.visualstudio.com/)
-- [](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- []()
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

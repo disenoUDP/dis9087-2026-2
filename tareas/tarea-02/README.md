@@ -12,7 +12,8 @@ Dentro del mismo repositorio de *gatos* deben crear una carpeta llamada *video*,
 
 Con los cambios que hicieron deben actualizar el repo, siguiendo el tutorial disponible en la [sección de recursos](#recursos).
 
-El encargo se entrega en canvas en forma del link de su repositorio, a la tarea *"T02_EDITAR_REPOSITORIO_GATOS"*.  
+El encargo se entrega en canvas en forma del link de su repositorio, a la tarea *"T02_EDITAR_REPOSITORIO_GATOS"*.
+
 - Ejemplo: <https://github.com/santiagoclifford/gatos>
 
 ## recursos
