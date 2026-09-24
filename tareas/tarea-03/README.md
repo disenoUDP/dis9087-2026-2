@@ -14,3 +14,4 @@ en duplas deben preparar un proyecto donde tengan 2 elementos. Uno de ellos de r
 
 Incluir una reflexión semiótica y sobre a la percepción de las cosas. No solo debe ser funcional, debe funcionar completamente en una página web.
 
+ver entregas [AQUÍ](./entregas/README.md)
