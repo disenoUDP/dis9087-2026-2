@@ -30,12 +30,12 @@ leo una reflexión profunda del cómo funcionan ambas bibliotecas usadas. Pero v
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 1 |
-| investgación/ reflexión | 3 |
+| entendimiento del funcionamiento | 1 |
+| investigación / reflexión | 3 |
 | efectos y calidad gráfica | 2 |
 | originalidad | 3 |
 | complejidad | 2 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G02: Yurineth Vargas
 
@@ -47,12 +47,12 @@ muy interesante el resultado al que llegaste. Suficiente profundidad y complejid
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 3 |
-| investgación/ reflexión | 3 |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
 | efectos y calidad gráfica | 3 |
 | originalidad | 3 |
 | complejidad | 2 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G03: Isidora Álvarez, Dayana Pañitrur
 
@@ -60,15 +60,15 @@ muy interesante el resultado al que llegaste. Suficiente profundidad y complejid
 
 <https://dayanapanitrur.github.io/Multirealidades.sys/>
 
-se nota el trabajo que hay destrpas de su entrega, excelentes decisiones de disñeo web usabilidad. Exclente profundidad investigativa y reflexión.
+se nota el trabajo que hay detrás de su entrega, excelentes decisiones de diseño web usabilidad. Excelente profundidad investigativa y reflexión.
 
-| ítem | puntaje(0-3) |
+| ítem | puntaje (0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 3 |
-| investgación/ reflexión | 3 |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
 | efectos y calidad gráfica | 3 |
 | originalidad | 3 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G04: Martín García, Fernanda Cortés
 
@@ -76,16 +76,16 @@ se nota el trabajo que hay destrpas de su entrega, excelentes decisiones de dis�
 
 <https://f3rtin.github.io/dos-realidades/>
 
-Le dices a la cámara qué color detectra, y en base a eso, detecta el color más cercano a ese en la cámara. En base a ello, toma ese color como tinta para dibujar en pantalla en una canvas blanco en el que dibujas con el dedo, detectado por la cámara
+Le dices a la cámara qué color detecta, y en base a eso, detecta el color más cercano a ese en la cámara. En base a ello, toma ese color como tinta para dibujar en pantalla en una canvas blanco en el que dibujas con el dedo, detectado por la cámara
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 3 |
-| investgación/ reflexión | 1 |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 1 |
 | efectos y calidad gráfica | 3 |
 | originalidad | 3 |
 | complejidad | 3 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G05: Camila Ramírez, [Facundo Cabrera]
 
@@ -97,12 +97,12 @@ Explora la relación de las personas con los dispositivos móviles. Y cómo esta
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 3 |
-| investgación/ reflexión | 3 |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
 | efectos y calidad gráfica | 2 |
 | originalidad | 3 |
 | complejidad | 3 |
-|total(max 12) |  |
+| total(max 12) |  |
 
 ### G06: Anto Acevedo, Maite Villaroeal
 
@@ -114,12 +114,12 @@ muestra un contraste entre aquellos movimientos voluntarios e involuntarios de l
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión | 3 |
+| entendimiento del funcionamiento |  |
+| investigación / reflexión | 3 |
 | efectos y calidad gráfica | 3 |
 | originalidad | 3 |
 | complejidad | 2 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G07: Katalina Ríos, Isidora Pérez
 
@@ -136,140 +136,106 @@ Muy llamativo el diseño web al que llegaron. Muy entretenido la experiencia gui
 | efectos y calidad gráfica | 2 |
 | originalidad | 3 |
 | complejidad | 3 |
-|total(max 15) |  |
+| total(max 15) |  |
 
 ### G08: Débora Soto
 
 #### No hay un Yo sin un Tú
 
-<https://xxxx.github.io/xxxx/>
+<https://debskar.github.io/Rerealidad/>
 
 Muy potente la reflexión, solo existen si otres dan cuenta de tu existencia.
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
+| entendimiento del funcionamiento | 0 |
+| investigación / reflexión | 3 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 3 |
+| complejidad | 2 |
+| total(max 15) |  |
+
+### G09: Daniel Victoriano
+
+#### Pinturas y Cuchillos
+
+<https://lechugaluminio.github.io/pinturasycuchillos/cv-apps/#lanzamientos>
+
+Se nota el trabajo que hay detrás. funciona muy bien las interacciones que preparaste y los features que lo acompañan. Buena reflexión sobre cómo se detectan distintas cosas dependiendo de en qué se está fijando la atención.
+
+| ítem | puntaje(0-3) |
+| - | - |
+| entendimeinto del funcionamiento | 3 |
+| investgación/ reflexión | 2 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 3 |
+| complejidad | 3 |
+| total(max 15) |  |
+
+### G10: Jeffer Moreno
+
+#### Dos Realidades
+
+<https://jffudp.github.io/Dos_realidades/>
+
+Diseño enfocado a un caso de uso real, la realidad virtual. No me queda tan claro la conexión entre tu reflexión y la web. "Lo virtual siempre viene inspirado por el mundo real, el límite está en que lo virtual podemos ver pero no sentir"
+
+| ítem | puntaje(0-3) |
+| - | - |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 1 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 2 |
+| complejidad | 2 |
+| total(max 15) |  |
+
+### G11: Hugo Montoya
+
+#### Dos Realidades by Hugo
+
+<https://hugosmontoya.github.io/tarea-4dosrealidades/>
+
+Reconocimiento de sonrisas. Demuestra alto entendimiento de cómo funciona el reconocimiento. Excelente la reflexión y el cómo se conecta a tus aplicaciones.
+
+| ítem | puntaje(0-3) |
+| - | - |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 3 |
+| complejidad | 3 |
+| total(max 15) |  |
+
+### G12: Josefa Araya
+
+#### Actos del habla
+
+<https://josefa-kristina.github.io/Actos-del-habla/>
+
+Reflexión respecto a las personas que se comunican de manera no verbal.
+
+| ítem | puntaje(0-3) |
+| - | - |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 2 |
+| complejidad | 1 |
 |total(max 15) |  |
 
-### G09: xxxx, xxxxx
+### G13: Fernanda Ángel
 
-#### título
+#### Confiésate Aquí
 
-<https://xxxx.github.io/xxxx/>
+<https://fernandaangel-cpu.github.io/confiesate-aqui-t03/confiesa-aqui/>
 
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G10: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
+Limitaciones humanas para percibir las realidades. Nuestras intenciones comunicativas sobrepasan nuestra capacidad de hacerlo de manera efectiva. Dado que solo detecta algunas cosas, invita a confesar cosas en el plano de lo que no detecta.
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G11: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G12: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G13: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G14: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
-
-### G15: xxxx, xxxxx
-
-#### título
-
-<https://xxxx.github.io/xxxx/>
-
-comentario.
-
-| ítem | puntaje(0-3) |
-| - | - |
-| entendimeinto del funcionamiento |  |
-| investgación/ reflexión |  |
-| efectos y calidad gráfica |  |
-| originalidad |  |
-| complejidad |  |
-|total(max 12) |  |
+| entendimiento del funcionamiento | 3 |
+| investigación / reflexión | 3 |
+| efectos y calidad gráfica | 3 |
+| originalidad | 3 |
+| complejidad | 3 |
+| total(max 15) |  |
