@@ -20,6 +20,32 @@ entregas subidas a canvas hasta las 10:00am del 24 de septiembre.
 
 ## presentaciones
 
-### G01: 
+### G01: xxxx, xxxxx
 
-#### 
+### G02: xxxx, xxxxx
+
+### G03: xxxx, xxxxx
+
+### G04: xxxx, xxxxx
+
+### G05: xxxx, xxxxx
+
+### G06: xxxx, xxxxx
+
+### G07: xxxx, xxxxx
+
+### G08: xxxx, xxxxx
+
+### G09: xxxx, xxxxx
+
+### G10: xxxx, xxxxx
+
+### G11: xxxx, xxxxx
+
+### G012: xxxx, xxxxx
+
+### G013: xxxx, xxxxx
+
+### G014: xxxx, xxxxx
+
+### G015: xxxx, xxxxx
