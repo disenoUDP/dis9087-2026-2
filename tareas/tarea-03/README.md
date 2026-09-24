@@ -13,3 +13,4 @@ La entrega consta de 2 partes:
 en duplas deben preparar un proyecto donde tengan 2 elementos. Uno de ellos de reconocimiento de imágenes usando mediaPipe, y el otro usando OpenCV. Pueden usar [este repo](https://github.com/fefeliperoar/dos-realidades) que preparó Felipe de base.
 
 Incluir una reflexión semiótica y sobre a la percepción de las cosas. No solo debe ser funcional, debe funcionar completamente en una página web.
+
