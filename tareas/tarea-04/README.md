@@ -4,6 +4,8 @@ A entregar el jueves 01 de octubre. Hasta las 11:00am, vía [canvas](https://udp
 
 Para la tarea-04 deberán integrar el elementos del tiempo dentro de su entrega.
 
+- Entregables: archivo mp4 y archivo de texto que contenga su reflexión.
+
 ![Slit Scan](../../sesion-06/img/slit-scan.png).
 
 ![Teseracto](../../sesion-06/img/teseracto.gif)
