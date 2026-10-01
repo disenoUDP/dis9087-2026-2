@@ -44,8 +44,8 @@ Piensa la composición como una pieza completa, con un inicio, un desarrollo y u
 El video va acompañado de un texto de una página como máximo (unas 400 a 600 palabras), organizado en tres partes.
 
 1. Uso de la herramienta y decisiones. Explica qué videos usaste y por qué, qué funciones de Slit Scan aplicaste y con qué valores aproximados. Cuenta qué probaste y descartaste, y por qué elegiste lo que quedó. Incluye dos o tres capturas del proceso.
-Reflexión sobre el paso del tiempo. ¿Qué aprendiste o descubriste del tiempo al verlo como algo que se apila, se estira o se tiñe? ¿Qué muestra tu video que un video normal no muestra?
-Mejoras para la herramienta. Propón al menos dos mejoras concretas: qué te faltó, qué te costó o qué función nueva te habría permitido llegar más lejos. Explica para qué la usarías.
+2. Reflexión sobre el paso del tiempo. ¿Qué aprendiste o descubriste del tiempo al verlo como algo que se apila, se estira o se tiñe? ¿Qué muestra tu video que un video normal no muestra?
+3. Mejoras para la herramienta. Propón al menos dos mejoras concretas: qué te faltó, qué te costó o qué función nueva te habría permitido llegar más lejos. Explica para qué la usarías.
 
 ## Proceso sugerido
 
