@@ -9,7 +9,6 @@ Benjamín tuvo la amabilidad de concedernos cuentas de pago a la plataforma dura
 
 La tarea-05 (la cual se realiza de manera individual) vendrá acompañada de un concurso. Las entregas se publicarán en Instagram el 15 de octubre y aquella con más likes luego de 1 semana ganará un año de suscripción de pago a Sketch🥳 🥳 
 
-
 video audioreactivo + lyrics + una herramienta HTML
 
 con 1 canción chilena.
