@@ -7,7 +7,7 @@ Revisamos la plataforma y nos contó cómo usarla y varios tips que solo el crea
 
 Benjamín tuvo la amabilidad de concedernos cuentas de pago a la plataforma durante este mes, a todas las personas del curso (asociado a su mail.udp, puede acceder desde ya!).
 
-La tarea-05 (la cual se realiza de manera individual) vendrá acompañada de un concurso. Las entregas se publicarán en Instagram el 15 de octubre y aquella con más likes luego de 1 semana ganará un año de suscripción de pago a Sketch🥳 🥳 
+La tarea-05 (la cual se realiza de manera individual) vendrá acompañada de un concurso. Las entregas se publicarán en Instagram el 15 de octubre y aquella con más likes luego de 1 semana ganará un año de suscripción de pago a Sketch🥳 🥳
 
 video audioreactivo + lyrics + una herramienta HTML
 
