@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portada carrusel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f3f0;
+    --panel: #ffffff;
+    --text: #141414;
+    --muted: #6b6b6b;
+    --line: #dcdad5;
+    --accent: #141414;
+    --accent-text: #ffffff;
+    --warn: #b4410f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111112;
+      --panel: #1b1b1d;
+      --text: #f1f1f1;
+      --muted: #9a9a9a;
+      --line: #313134;
+      --accent: #f1f1f1;
+      --accent-text: #111112;
+      --warn: #ff9a6b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111112;
+    --panel: #1b1b1d;
+    --text: #f1f1f1;
+    --muted: #9a9a9a;
+    --line: #313134;
+    --accent: #f1f1f1;
+    --accent-text: #111112;
+    --warn: #ff9a6b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 "Space Grotesk", system-ui, sans-serif;
+  }
+  header { padding: 32px 16px 8px; max-width: 1100px; margin: 0 auto; }
+  h1 { margin: 0; font-size: 26px; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  @media (max-width: 760px) { main { grid-template-columns: minmax(0, 1fr); } }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: start;
+  }
+
+  .drop {
+    display: block;
+    border: 2px dashed var(--line);
+    border-radius: 10px;
+    padding: 22px 16px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--muted);
+    transition: border-color .15s, background .15s;
+  }
+  .drop strong { color: var(--text); display: block; margin-bottom: 2px; }
+  .drop.over, .drop:hover { border-color: var(--text); }
+  .drop input { display: none; }
+
+  .mono { font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  label.campo { display: flex; flex-direction: column; gap: 4px; }
+  input[type="text"] {
+    font: inherit;
+    color: var(--text);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 8px 10px;
+  }
+  input[type="text"]:focus { outline: 2px solid var(--text); outline-offset: -1px; }
+  input[type="file"] { font: inherit; font-size: 13px; color: var(--muted); max-width: 100%; }
+
+  button, .boton {
+    font: inherit;
+    font-weight: 700;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: var(--accent-text);
+    border-radius: 8px;
+    padding: 10px 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  button.secundario, .boton.secundario { background: transparent; color: var(--text); border-color: var(--line); }
+
+  #aviso { margin: 0; color: var(--warn); font-size: 13px; min-height: 1em; }
+
+  .preview { display: flex; flex-direction: column; align-items: center; gap: 16px; min-width: 0; }
+  canvas {
+    width: 100%;
+    max-width: 432px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, .25);
+    background: #000;
+  }
+  #lista { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; max-width: 432px; }
+  #lista:empty { display: none; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 4px 6px 4px 12px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .chip.activo { border-color: var(--text); font-weight: 700; }
+  .chip .sin { color: var(--warn); }
+  .chip .quitar { border: 0; background: none; color: var(--muted); padding: 0 6px; font-size: 16px; line-height: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Portada para el carrusel</h1>
+  <p>Post 1 del carrusel. El post 2 es tu visualización.</p>
+</header>
+
+<main>
+  <section class="panel">
+    <label class="drop" id="drop">
+      <strong>Arrastra aquí tu datos.json y la portada</strong>
+      o haz clic para elegir los archivos
+      <input id="archivos" type="file" multiple accept=".json,application/json,image/*">
+    </label>
+    <a class="boton secundario" id="plantilla" href="#">Descargar plantilla datos.json</a>
+
+    <label class="campo"><span class="mono">Estudiante</span><input type="text" id="f-estudiante" placeholder="Nombre Apellido"></label>
+    <label class="campo"><span class="mono">Canción</span><input type="text" id="f-cancion" placeholder="Nombre de la canción"></label>
+    <label class="campo"><span class="mono">Artista</span><input type="text" id="f-artista" placeholder="Artista"></label>
+    <label class="campo"><span class="mono">Álbum (opcional)</span><input type="text" id="f-album" placeholder="Nombre del álbum"></label>
+    <label class="campo"><span class="mono">Portada del álbum</span><input type="file" id="f-portada" accept="image/*"></label>
+
+    <button id="descargar">Descargar PNG · 1080×1920</button>
+    <button id="descargar-todas" class="secundario" hidden></button>
+    <p id="aviso"></p>
+  </section>
+
+  <section class="preview">
+    <canvas id="lienzo" width="1080" height="1920"></canvas>
+    <div id="lista"></div>
+  </section>
+</main>
+
+<script>
+// Textos fijos de la imagen — edita aquí.
+const CONFIG = {
+  curso: 'DIS9087 · UDP',
+  etiqueta: 'Tarea 05',
+  rotulo: 'Visualización por',
+  pie: 'Desliza →',
+};
+
+const W = 1080, H = 1920; // 9:16
+const SANS = '"Space Grotesk", system-ui, sans-serif';
+const MONO = '"Space Mono", ui-monospace, monospace';
+
+const PLANTILLA = {
+  estudiante: 'Nombre Apellido',
+  cancion: 'Nombre de la canción',
+  artista: 'Artista',
+  album: 'Nombre del álbum',
+  portada: 'portada.jpg',
+};
+
+let items = [vacio()];
+let sel = 0;
+const imagenes = new Map(); // nombre de archivo (minúsculas) → Image
+
+const $ = (s) => document.querySelector(s);
+const lienzo = $('#lienzo');
+const campos = ['estudiante', 'cancion', 'artista', 'album'];
+
+function vacio() {
+  return { estudiante: '', cancion: '', artista: '', album: '', portada: '', img: null };
+}
+
+const texto = (v) => Array.isArray(v) ? v.filter(Boolean).join(' · ') : (v ?? '').toString().trim();
+
+function normalizar(d) {
+  return {
+    estudiante: texto(d.estudiante ?? d.estudiantes ?? d.nombre ?? d.nombres),
+    cancion: texto(d.cancion ?? d['canción'] ?? d.titulo),
+    artista: texto(d.artista ?? d.interprete),
+    album: texto(d.album ?? d['álbum']),
+    portada: texto(d.portada ?? d.imagen),
+    img: null,
+  };
+}
+
+function cargarImagen(archivo) {
+  return new Promise((ok, error) => {
+    const img = new Image();
+    img.onload = () => ok(img);
+    img.onerror = () => error(new Error(`No se pudo abrir la imagen ${archivo.name}`));
+    img.src = URL.createObjectURL(archivo);
+  });
+}
+
+function avisar(msg) { $('#aviso').textContent = msg || ''; }
+
+// ---------- carga de archivos ----------
+
+async function cargarArchivos(lista) {
+  avisar('');
+  const archivos = [...lista];
+  const nuevasImgs = [];
+  for (const f of archivos.filter((f) => f.type.startsWith('image/'))) {
+    try {
+      const img = await cargarImagen(f);
+      imagenes.set(f.name.toLowerCase(), img);
+      nuevasImgs.push(img);
+    } catch (e) { avisar(e.message); }
+  }
+
+  const nuevos = [];
+  for (const f of archivos.filter((f) => /\.json$/i.test(f.name) || f.type === 'application/json')) {
+    try {
+      const data = JSON.parse(await f.text());
+      for (const d of [].concat(data)) nuevos.push(normalizar(d));
+    } catch (e) {
+      avisar(`No se pudo leer ${f.name}: revisa que sea un JSON válido.`);
+    }
+  }
+
+  if (nuevos.length) {
+    for (const it of nuevos) it.img = imagenes.get(it.portada.toLowerCase()) || null;
+    // Un solo dato y una sola imagen: se emparejan aunque el nombre no coincida.
+    const sinImg = nuevos.filter((it) => !it.img);
+    if (sinImg.length === 1 && nuevasImgs.length === 1) sinImg[0].img = nuevasImgs[0];
+    if (items.length === 1 && esVacio(items[0])) items = [];
+    sel = items.length;
+    items.push(...nuevos);
+  } else if (nuevasImgs.length) {
+    let emparejadas = 0;
+    for (const it of items) {
+      const img = imagenes.get(it.portada.toLowerCase());
+      if (img && !it.img) { it.img = img; emparejadas++; }
+    }
+    if (!emparejadas) items[sel].img = nuevasImgs[0];
+  }
+  actualizar();
+}
+
+function esVacio(it) {
+  return !it.img && campos.every((c) => !it[c]);
+}
+
+// ---------- dibujo ----------
+
+function letras(ctx, valor) {
+  if ('letterSpacing' in ctx) ctx.letterSpacing = valor;
+}
+
+function dibujarRecortada(ctx, img, x, y, w, h) {
+  const escala = Math.max(w / img.width, h / img.height);
+  const sw = w / escala, sh = h / escala;
+  ctx.drawImage(img, (img.width - sw) / 2, (img.height - sh) / 2, sw, sh, x, y, w, h);
+}
+
+function partir(ctx, txt, maxW) {
+  const palabras = txt.split(/\s+/).filter(Boolean);
+  const lineas = [];
+  let actual = '';
+  for (const p of palabras) {
+    const prueba = actual ? `${actual} ${p}` : p;
+    if (ctx.measureText(prueba).width <= maxW || !actual) actual = prueba;
+    else { lineas.push(actual); actual = p; }
+  }
+  if (actual) lineas.push(actual);
+  return lineas;
+}
+
+// Achica la letra hasta que el texto quepa en maxLineas; si no, corta con "…".
+function ajustar(ctx, txt, maxW, maxLineas, grande, chica, fuente) {
+  let size = grande, lineas;
+  for (; size >= chica; size -= 2) {
+    ctx.font = fuente(size);
+    lineas = partir(ctx, txt, maxW);
+    if (lineas.length <= maxLineas && lineas.every((l) => ctx.measureText(l).width <= maxW)) {
+      return { lineas, size, fuente: fuente(size) };
+    }
+  }
+  size = chica;
+  ctx.font = fuente(size);
+  lineas = partir(ctx, txt, maxW).slice(0, maxLineas);
+  let ultima = lineas[lineas.length - 1];
+  while (ultima.length > 1 && ctx.measureText(ultima + '…').width > maxW) ultima = ultima.slice(0, -1);
+  lineas[lineas.length - 1] = ultima.trimEnd() + '…';
+  return { lineas, size, fuente: fuente(size) };
+}
+
+function dibujar(canvas, it) {
+  canvas.width = W;
+  canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  const P = 80;
+  const maxW = W - 2 * P;
+  const cx = W / 2;
+
+  // Fondo: la misma portada, ampliada y desenfocada.
+  ctx.fillStyle = '#0e0e10';
+  ctx.fillRect(0, 0, W, H);
+  if (it.img) {
+    ctx.save();
+    ctx.filter = 'blur(70px) saturate(1.3)';
+    dibujarRecortada(ctx, it.img, -200, -200, W + 400, H + 400);
+    ctx.restore();
+    ctx.fillStyle = 'rgba(8, 8, 10, 0.58)';
+    ctx.fillRect(0, 0, W, H);
+  }
+
+  ctx.fillStyle = '#ffffff';
+  ctx.textBaseline = 'top';
+
+  // Encabezado y pie
+  ctx.font = `700 24px ${MONO}`;
+  letras(ctx, '3px');
+  ctx.textAlign = 'left';
+  ctx.fillText(CONFIG.curso.toUpperCase(), P, P);
+  ctx.textAlign = 'right';
+  ctx.fillText(CONFIG.etiqueta.toUpperCase(), W - P, P);
+
+  ctx.globalAlpha = 0.75;
+  ctx.font = `400 24px ${MONO}`;
+  ctx.textBaseline = 'bottom';
+  ctx.textAlign = 'left';
+  ctx.fillText('1 / 2', P, H - P);
+  ctx.textAlign = 'right';
+  ctx.fillText(CONFIG.pie.toUpperCase(), W - P, H - P);
+  ctx.globalAlpha = 1;
+  ctx.textBaseline = 'top';
+
+  // Bloque de texto (se mide antes para centrar todo verticalmente)
+  letras(ctx, '0px');
+  const titulo = ajustar(ctx, it.cancion || 'Nombre de la canción', maxW, 2, 92, 56, (s) => `700 ${s}px ${SANS}`);
+  const artistaTxt = [it.artista || 'Artista', it.album].filter(Boolean).join(' — ');
+  const artista = ajustar(ctx, artistaTxt, maxW, 1, 42, 28, (s) => `400 ${s}px ${SANS}`);
+  const estudiante = ajustar(ctx, it.estudiante || 'Nombre Estudiante', maxW, 2, 52, 32, (s) => `700 ${s}px ${SANS}`);
+
+  const altoTitulo = titulo.size * 1.08;
+  const altoEst = estudiante.size * 1.15;
+  const bloqueTexto =
+    titulo.lineas.length * altoTitulo + 14 +
+    artista.size * 1.25 + 56 +
+    22 + 14 +
+    estudiante.lineas.length * altoEst;
+
+  const arriba = P + 24 + 56;
+  const abajo = H - P - 24 - 56;
+  const separacion = 60;
+  const lado = Math.min(maxW, abajo - arriba - separacion - bloqueTexto);
+  let y = arriba + (abajo - arriba - (lado + separacion + bloqueTexto)) / 2;
+
+  // Portada cuadrada
+  const x = cx - lado / 2;
+  ctx.save();
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.55)';
+  ctx.shadowBlur = 70;
+  ctx.shadowOffsetY = 24;
+  ctx.fillStyle = '#222';
+  ctx.fillRect(x, y, lado, lado);
+  ctx.restore();
+  if (it.img) {
+    dibujarRecortada(ctx, it.img, x, y, lado, lado);
+  } else {
+    ctx.fillStyle = '#1c1c1f';
+    ctx.fillRect(x, y, lado, lado);
+    ctx.save();
+    ctx.strokeStyle = 'rgba(255,255,255,.35)';
+    ctx.setLineDash([14, 12]);
+    ctx.lineWidth = 3;
+    ctx.strokeRect(x + 24, y + 24, lado - 48, lado - 48);
+    ctx.restore();
+    ctx.font = `400 26px ${MONO}`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.6;
+    ctx.fillText('PORTADA DEL ÁLBUM', cx, y + lado / 2);
+    ctx.globalAlpha = 1;
+    ctx.textBaseline = 'top';
+  }
+  y += lado + separacion;
+
+  // Canción
+  ctx.textAlign = 'center';
+  ctx.font = titulo.fuente;
+  for (const l of titulo.lineas) { ctx.fillText(l, cx, y); y += altoTitulo; }
+  y += 14;
+
+  // Artista — álbum
+  ctx.font = artista.fuente;
+  ctx.globalAlpha = 0.8;
+  ctx.fillText(artista.lineas[0], cx, y);
+  y += artista.size * 1.25;
+
+  // Separador
+  ctx.globalAlpha = 0.4;
+  ctx.fillRect(cx - 30, y + 27, 60, 2);
+  y += 56;
+
+  // Estudiante
+  ctx.font = `400 22px ${MONO}`;
+  letras(ctx, '3px');
+  ctx.globalAlpha = 0.7;
+  ctx.fillText(CONFIG.rotulo.toUpperCase(), cx, y);
+  letras(ctx, '0px');
+  ctx.globalAlpha = 1;
+  y += 22 + 14;
+  ctx.font = estudiante.fuente;
+  for (const l of estudiante.lineas) { ctx.fillText(l, cx, y); y += altoEst; }
+}
+
+// ---------- interfaz ----------
+
+function actualizar() {
+  const it = items[sel];
+  for (const c of campos) {
+    const input = $(`#f-${c}`);
+    if (document.activeElement !== input) input.value = it[c];
+  }
+  dibujar(lienzo, it);
+
+  const lista = $('#lista');
+  lista.innerHTML = '';
+  if (items.length > 1) {
+    items.forEach((x, i) => {
+      const chip = document.createElement('span');
+      chip.className = 'chip' + (i === sel ? ' activo' : '');
+      chip.style.cursor = 'pointer';
+      chip.textContent = x.estudiante || `Sin nombre ${i + 1}`;
+      if (!x.img) {
+        const sin = document.createElement('span');
+        sin.className = 'sin';
+        sin.textContent = '· sin portada';
+        chip.append(sin);
+      }
+      const quitar = document.createElement('button');
+      quitar.className = 'quitar';
+      quitar.textContent = '×';
+      quitar.title = 'Quitar';
+      quitar.onclick = (e) => {
+        e.stopPropagation();
+        items.splice(i, 1);
+        sel = Math.min(sel, items.length - 1);
+        actualizar();
+      };
+      chip.append(quitar);
+      chip.onclick = () => { sel = i; actualizar(); };
+      lista.append(chip);
+    });
+  }
+  const todas = $('#descargar-todas');
+  todas.hidden = items.length < 2;
+  todas.textContent = `Descargar todas (${items.length})`;
+}
+
+function nombreArchivo(it, i) {
+  const slug = (it.estudiante || `portada-${i + 1}`)
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return `01-portada-${slug}.png`;
+}
+
+function descargar(canvas, nombre) {
+  return new Promise((ok) => {
+    canvas.toBlob((blob) => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = nombre;
+      a.click();
+      setTimeout(() => { URL.revokeObjectURL(a.href); ok(); }, 300);
+    }, 'image/png');
+  });
+}
+
+for (const c of campos) {
+  $(`#f-${c}`).addEventListener('input', (e) => {
+    items[sel][c] = e.target.value;
+    actualizar();
+  });
+}
+
+$('#f-portada').addEventListener('change', async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  try {
+    items[sel].img = await cargarImagen(f);
+    items[sel].portada = f.name;
+    avisar('');
+  } catch (err) { avisar(err.message); }
+  e.target.value = '';
+  actualizar();
+});
+
+$('#archivos').addEventListener('change', (e) => { cargarArchivos(e.target.files); e.target.value = ''; });
+
+const drop = $('#drop');
+window.addEventListener('dragover', (e) => { e.preventDefault(); drop.classList.add('over'); });
+window.addEventListener('dragleave', (e) => { if (!e.relatedTarget) drop.classList.remove('over'); });
+window.addEventListener('drop', (e) => {
+  e.preventDefault();
+  drop.classList.remove('over');
+  cargarArchivos(e.dataTransfer.files);
+});
+
+$('#descargar').addEventListener('click', () => descargar(lienzo, nombreArchivo(items[sel], sel)));
+
+$('#descargar-todas').addEventListener('click', async () => {
+  const tmp = document.createElement('canvas');
+  for (let i = 0; i < items.length; i++) {
+    dibujar(tmp, items[i]);
+    await descargar(tmp, nombreArchivo(items[i], i));
+  }
+});
+
+$('#plantilla').addEventListener('click', (e) => {
+  e.preventDefault();
+  const blob = new Blob([JSON.stringify(PLANTILLA, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'datos.json';
+  a.click();
+});
+
+// Espera las fuentes para que el canvas no dibuje con la tipografía del sistema.
+Promise.all([
+  document.fonts.load(`700 92px ${SANS}`),
+  document.fonts.load(`400 36px ${SANS}`),
+  document.fonts.load(`700 24px ${MONO}`),
+  document.fonts.load(`400 24px ${MONO}`),
+]).catch(() => {}).finally(actualizar);
+actualizar();
+</script>
+</body>
+</html>

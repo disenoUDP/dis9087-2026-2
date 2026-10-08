@@ -2,7 +2,11 @@
 
 2026-10-08
 
-## entregas de hoy
+Hoy día es una clase trabajo en clase, para preparar la entrega de la [tarea-05](../tareas/tarea-05/README.md).
+
+Además, debido a que la clase anterior había paro. Tuvimos que suspender la presentación de la [tarea-04](../tareas/tarea-04/README.md), la cual fue presentada en la clase de hoy.
+
+## presentaciones tarea-04
 
 |#|Estudiante(s)|Temática|
 |-|-|-|
@@ -14,3 +18,9 @@
 |06|Facundo Cabrera|Yuto Origome - Flip 3|
 |07|Isidora Pérez|Calles de Santiago|
 |08|Hugo Montoya|Penalty|
+|09|[Fernanda Cortés], Martín García|Perros: movimientos erráticos. Reflexión sobre la linealidad del tiempo|
+|10|Sebastián Urquiza|Concierto de My Chemical Romance. Como las emociones alteran la percepción del tiempo, metáfora de Alicia en el país de las maravillas|
+
+## clase
+
+el resto de la clase la dedicamos a trabajar con la plataforma [Sketch](https://tools.sketchdesign.club/#tools). Para dejar lo más avanzado posible la [tarea-05](../tareas/tarea-05/README.md)
