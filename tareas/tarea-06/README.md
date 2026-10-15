@@ -6,7 +6,7 @@ El objetivo es entender el sonido no solo como algo que acompaña una imagen, si
 
 ## La herramienta base
 
-Trabajarás a partir de Oír la luz, que corre en el navegador. Tus videos no se suben a ningún servidor: todo se procesa en tu equipo.
+Trabajarás a partir de [Oír la luz](https://github.com/fefeliperoar/oir-la-luz), que corre en el navegador. Tus videos no se suben a ningún servidor: todo se procesa en tu equipo.
 
 La herramienta divide la imagen en zonas y hace sonar cada zona cuando detecta un cambio entre fotogramas. Sobre esa base puedes trabajar con:
 
