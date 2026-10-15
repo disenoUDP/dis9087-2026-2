@@ -22,3 +22,4 @@ ya comenzamos a abordar sonido en uestras tareas, durante esta clase pasaremos t
 - [Decibelio](https://es.wikipedia.org/wiki/Decibelio)
 - [Tono de Shepard](https://es.wikipedia.org/wiki/Tono_de_Shepard)
 - [Efecto McGurk](https://es.wikipedia.org/wiki/Efecto_McGurk)
+- [John Cage's 4'33"](https://youtu.be/JTEFKFiXSx4)

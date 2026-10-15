@@ -63,4 +63,6 @@ La cámara y el MIDI solo funcionan desde localhost o desde GitHub Pages (https)
 - Funcionamiento y publicación.
 - Profundidad del README y la reflexión.
 
-## Entregables: enlace al repositorio en GitHub, enlace a la plataforma publicada en GitHub Pages, README con las cuatro partes y un video de 30 a 60 segundos que muestre los resultados en uso.
+## Entregables
+
+enlace al repositorio en GitHub, enlace a la plataforma publicada en GitHub Pages, README con las cuatro partes y un video de 30 a 60 segundos que muestre los resultados en uso.
