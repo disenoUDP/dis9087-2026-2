@@ -29,7 +29,11 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [sesion-02](./sesion-02/README.md)
 - [sesion-03](./sesion-03/README.md)
 - [sesion-04](./sesion-04/README.md)
-- [sesion-05](./sesion-04/README.md)
+- [sesion-05](./sesion-05/README.md)
+- [sesion-06](./sesion-06/README.md)
+- [sesion-07](./sesion-07/README.md)
+- [sesion-08](./sesion-08/README.md)
+- [sesion-09](./sesion-09/README.md)
 
 ### tareas
 
@@ -42,13 +46,11 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [ISIDORA A.](https://github.com/isidoraalvarez)
 - [FERNANDA A.](https://github.com/fernandaangel-cpu)
 - [JOSEFA A.](https://github.com/josefa-kristina)
-- [VALENTINA A.](https://github.com/valentina-araya)
 - [FACUNDO C.](https://github.com/Fcartus)
-- LUCÍA C.
 - [FERNANDA C.](https://github.com/britneyspears-fan)
 - [VICTORIA F.](https://github.com/SolFrias1)
 - [MARTÍN G.](https://github.com/F3rtin)
-- NOELIA L.
+- [NOELIA L.](https://github.com/noeliaaa07)
 - [CARLOS M.](https://github.com/CharlesDiner0)
 - [HUGO M.](https://github.com/hugosmontoya)
 - [JEFFER M.](https://github.com/jffudp)
@@ -56,7 +58,6 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [ISIDORA P.](https://github.com/isipm08)
 - [CAMILA R.](https://github.com/Estrabismx)
 - [KATALINA R.](https://github.com/schwii11)
-- CONSTANZA R.
 - [DÉBORA S.](https://github.com/DebSkar)
 - [SEBASTIÁN U.](https://github.com/Stmvrphy)
 - [JUAN V.](https://github.com/juancho-01)
