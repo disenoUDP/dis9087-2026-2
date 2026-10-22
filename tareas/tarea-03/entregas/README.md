@@ -104,7 +104,7 @@ Explora la relación de las personas con los dispositivos móviles. Y cómo esta
 | complejidad | 3 |
 | total(max 12) |  |
 
-### G06: Anto Acevedo, Maite Villaroeal
+### G06: Anto Acevedo, Maite Villaroel
 
 #### No solo lo intencional se nota
 
@@ -131,7 +131,7 @@ Muy llamativo el diseño web al que llegaron. Muy entretenido la experiencia gui
 
 | ítem | puntaje(0-3) |
 | - | - |
-| entendimeinto del funcionamiento | 3 |
+| entendimiento del funcionamiento | 3 |
 | investgación/ reflexión | 2 |
 | efectos y calidad gráfica | 2 |
 | originalidad | 3 |

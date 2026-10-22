@@ -22,7 +22,7 @@ El README del repositorio explica cada función. La sección Usar otros sonidos 
 
 ## La plataforma
 
-Tu plataforma es una herramienta especializada en la temática que elijas. Puedes tomar como base Oír la luz o construir la tuya desde cero..
+Tu plataforma es una herramienta especializada en la temática que elijas. Puedes tomar como base Oír la luz o construir la tuya desde cero.
 
 - Concepto: elige una relación entre imagen y sonido y defiéndela. En el README hay ejemplos: videos de la ciudad que generan sonidos de bosque, videos de migración que generan cantos de pájaros, olas que suenan como respiración, una multitud que suena como lluvia. Puedes partir de uno o proponer el tuyo.
 - Banco de sonidos: reúne entre 5 y 15 sonidos, grabados por ti, generados o descargados de bancos de uso libre (por ejemplo freesound.org). Indica el origen y la licencia de cada uno.

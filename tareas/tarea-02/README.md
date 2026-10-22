@@ -23,7 +23,7 @@ El encargo se entrega en canvas en forma del link de su repositorio, a la tarea 
 
 ### revisiones
 
-### Camila Ramírez, facundo cabrera
+### Camila Ramírez, Facundo Cabrera
 
 - **Jojo's**
 
@@ -61,7 +61,7 @@ buen trabajo, Buen entendimiento de los gestos
 
 se nota el conocimiento del propio proyecto, harto trabajo, imagenes que eran detonadas por sucesiones de movimientos.
 
-- 8 interacciones, 2  par tienen 2 imágenes para 1 pose.
+- 8 interacciones, tienen 2 imágenes para 1 pose.
 
 ### Anto Acevedo, Maite Villaroel
 
@@ -112,7 +112,7 @@ buena conceptualización. Muy buena investigación.
 
 - 7 interacciones
 
-### Daniel Victoirano
+### Daniel Victoriano
 
 - **aventura gráfica**
 

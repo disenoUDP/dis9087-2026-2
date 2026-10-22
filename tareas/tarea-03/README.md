@@ -1,8 +1,8 @@
-# tarea-04
+# tarea-03
 
 ## Proyecto
 
-entrega: 23 de septiembre a las 23:59
+entrega: 24 de septiembre a las 10:00
 
 - Objetivo: Explorar en detalle qué puede hacer mediaPipe, y OpenCV, por separado.
 

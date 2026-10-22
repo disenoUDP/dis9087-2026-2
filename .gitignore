@@ -1,0 +1,21 @@
+# sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# node
+node_modules/
+
+# editores (se mantiene .vscode/settings.json)
+.idea/
+*.swp
+
+# temporales de office
+~$*
