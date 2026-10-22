@@ -41,7 +41,6 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 
 ## repositorios curso
 
-- ANDRÉS A.
 - [ANTO A.](https://github.com/antoace67)
 - [ISIDORA A.](https://github.com/isidoraalvarez)
 - [FERNANDA A.](https://github.com/fernandaangel-cpu)
