@@ -10,7 +10,7 @@ instrucción > dato > condición > secuencia > repetición
 
 ### python
 
-Lenguaje de programación creado en los años 70 con énfasis en la legibilidad y simplicidad
+Lenguaje de programación creado en los años 90 con énfasis en la legibilidad y simplicidad
 
 Tiene grandes capacidades para conectarse diversos dispositivos, librerías, etc.
 
@@ -24,7 +24,7 @@ openCV abre la cámara y permite hacer correlaciones.
 
 detecta manos, rostros, posturas, objetos, gestos, audio, texto.
 
-mediaPipe le da esqueleto al mundo, y openCV hace los cálculos matemáticos para saber al distancia entre los puntos(y con ello saber qué gesto es)
+mediaPipe le da esqueleto al mundo, y openCV hace los cálculos matemáticos para saber la distancia entre los puntos(y con ello saber qué gesto es)
 
 ![Esqueleto de la mano de MediaPipe](./img/puntos-mano-mediaPipe.png)
 
@@ -37,7 +37,7 @@ introducción a los repositorios, colaboración, open source, etc.
 - [python](https://www.python.org/)
 - [W3Schools - Python](https://www.w3schools.com/python/default.asp)
 - [Codedex - Python](https://www.codedex.io/python)
-- librerías pyhton
+- librerías python
   - [NumPy](https://numpy.org/)
   - [pandas](https://pandas.pydata.org/)
   - [Matplotlib](https://matplotlib.org/)

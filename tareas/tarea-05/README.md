@@ -1,19 +1,19 @@
 # tarea-05
 
-Tenemos concurso! 
+Tenemos concurso!
 
 Hoy tuvimos la visita de Benjamín, diseñador y desarrollador de Sketch Tools
 Revisamos la plataforma y nos contó cómo usarla y varios tips que solo el creador podría contarnos.
 
 Benjamín tuvo la amabilidad de concedernos cuentas de pago a la plataforma durante este mes, a todas las personas del curso (asociado a su mail.udp, puede acceder desde ya!).
 
-La tarea-05 (la cual se realiza de manera individual) vendrá acompañada de un concurso. Las entregas se publicarán en Instagram el 15 de octubre y aquella con más likes luego de 1 semana ganará un año de suscripción de pago a Sketch🥳 🥳
+La tarea-05 (la cual se realiza de manera individual) vendrá acompañada de un concurso. Las entregas se publicarán en Instagram el 22 de octubre y aquella con más likes luego de 1 semana ganará un año de suscripción de pago a Sketch🥳 🥳
 
 video audioreactivo + lyrics + una herramienta HTML
 
 con 1 canción chilena.
 
-La tarea va de la mano con un concurso. EL post con más likes ganará una suscripción premium de 1 año a sketch.
+La tarea va de la mano con un concurso. El post con más likes ganará una suscripción premium de 1 año a sketch.
 
 ## entregables
 
@@ -38,7 +38,7 @@ El objetivo es usar el sonido como algo que mueve la imagen y no solo como fondo
 
 La herramienta
 
-Trabajarás en SketchLinks to an external site., que corre en el navegador. La plataforma trae funciones de audioreactividad que conectan lo que suena con lo que se ve. Sobre esa base puedes trabajar con:
+Trabajarás en Sketch, que corre en el navegador. La plataforma trae funciones de audioreactividad que conectan lo que suena con lo que se ve. Sobre esa base puedes trabajar con:
 
 Amplitud: el volumen general controla un parámetro visual (tamaño, brillo, opacidad).
 Bandas de frecuencia: graves, medios y agudos mueven elementos distintos.
@@ -53,7 +53,7 @@ El video
 
 Tu composición final es un reel vertical 9:16 (1080 × 1920 px)
 
-Canción: una canción chilena de cualquier género o época.. Indica en los comentarios el título y el artista.
+Canción: una canción chilena de cualquier género o época. Indica en los comentarios el título y el artista.
 Lyrics: la letra tiene que estar en pantalla y sincronizada con la voz. La tipografía, el tamaño, la posición y la forma en que aparece cada palabra o línea son parte del diseño.
 Audioreactividad: al menos un elemento debe responder de forma clara a la música, de manera que se perciba sin explicación.
 Herramienta HTML: tu herramienta tiene que aparecer en el video, integrada a la composición.

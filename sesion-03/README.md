@@ -20,7 +20,7 @@ cuando la ia afirma datos incorrectos
 
 #### referencial
 
-cuando inevnta referencias, links, etc.
+cuando inventa referencias, links, etc.
 
 #### extrapolación
 
@@ -30,7 +30,7 @@ cuando le falta información para entender el contexto, y rellena con informaci�
 
 #### LLM
 
-Large Language Models. Máquinas de procesamiento y generación de lenguaje. Viven en interntet y son capaces de tomar información de fuentes externas.
+Large Language Models. Máquinas de procesamiento y generación de lenguaje. Viven en internet y son capaces de tomar información de fuentes externas.
 
 - Generación
 - Comprensión

@@ -1,14 +1,16 @@
-# sesion-08
+# sesion-09
 
 2026-10-15
 
-hoy era la entrega de la tarea-05, debido a que hay paro, la entrega se extiende hasta mañana viernes 16 de octubre.
+hoy era la entrega de la tarea-05, debido a que hay paro, la entrega se extiende hasta el jueves 22 de octubre.
 
 ## clase
 
-ya comenzamos a abordar sonido en uestras tareas, durante esta clase pasaremos teoría al respecto.
+ya comenzamos a abordar sonido en nuestras tareas, durante esta clase pasaremos teoría al respecto.
 
+## encargo-06
 
+dimos la [tarea-06](../tareas/tarea-06/README.md)
 
 ### links relevantes
 

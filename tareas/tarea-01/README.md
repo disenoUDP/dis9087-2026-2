@@ -65,7 +65,7 @@ comentario: ojo con la diagramación
 ### grupo-4: saturómetro
 
 - Valentina Araya
-- Victoria Frias
+- Victoria Frías
 - Katalina Ríos
 - Isidora Pérez
 
@@ -101,9 +101,9 @@ comentario: aclarar pregunta de ¿qué interpreta?
 
 - Noelia Landaburu
 - Carlos Mella
-- Sebatián Urquiza
+- Sebastián Urquiza
 - Juan Valenzuela
-- Marcela Zuñiga
+- Marcela Zúñiga
 
 | qué | puntaje |
 | - | - |
