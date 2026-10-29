@@ -6,24 +6,27 @@ rúbrica de evaluación disponible [aquí](https://docs.google.com/spreadsheets/
 
 ## orden de presentaciones
 
-1. Jeffer
-2. Yurineth
-3. Katalina
-4. Martín Y fernanda
-5. 
+| # | Estudiante(s) | Nombre Proyecto | link |
+| - | - | - | - |
+| 1 | Jeffer | FUGA VICE CITY | https://jffudp.github.io/FUGA-VICE-CITY/ |
+| 2 | Yurineth | PULSO | https://aguapanelita.github.io/PULSO/
+ |
+| 3 | Katalina | INFANCIAS INTERRUMPIDAS | https://schwii11.github.io/infancias-interrumpidas/web/ |
+| 4 | Martín Y fernanda | NEWEN | https://f3rtin.github.io/Newen/ |
+| 5 | Camila y Isidora A | TRADUCTOR DE BITS | https://estrabismx.github.io/dis90987-tarea06/ |
+| 6 | Anto y Maite | MISMA TIERRA | https://maiteev.github.io/Misma-tierra-/ |
+| 7 | Débora | UMBRAL ESPECTRAL | https://debskar.github.io/UmbraEspectral/ |
+| 8 | Fernanda | Agotar el Archivo | https://fernandaangel-cpu.github.io/agotar-el-archivo/#escribe |
+| 9 | Daniel | Turbulencia Armónica | https://lechugaluminio.github.io/oir-la-luz/ |
+| 10 | Facundo | ONADAS VISIBLES | https://fcartus.github.io/Ondas-cotidianas/ |
+| 11 | Isidora P, Dayana | Espectro | https://isipm08.github.io/espectro/ |
+| 12 | Josefa | MAREA | https://josefa-kristina.github.io/MAREA/ |
+| 13 | Hugo(no vino) |  | https://hugosmontoya.github.io/T06_SONIDOS/ |
 
+Luego conversamos de la tarea-07
 
+## links relevantes
 
-## links entregas
-
-https://estrabismx.github.io/dis90987-tarea06/
-https://f3rtin.github.io/Newen/
-https://hugosmontoya.github.io/T06_SONIDOS/
-https://jffudp.github.io/FUGA-VICE-CITY/
-https://isipm08.github.io/espectro/
-https://schwii11.github.io/infancias-interrumpidas/web/
-https://debskar.github.io/UmbraEspectral/
-https://aguapanelita.github.io/PULSO/
-https://maiteev.github.io/Misma-tierra-/
-https://josefa-kristina.github.io/MAREA/
-https://lechugaluminio.github.io/oir-la-luz/
+- <https://mqtt.org/>
+- <https://www.allaboutcircuits.com/technical-articles/introduction-to-capacitive-touch-sensing/>
+- <https://www.emqx.com/en>
