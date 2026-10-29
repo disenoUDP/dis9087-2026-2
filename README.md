@@ -34,6 +34,9 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [sesion-07](./sesion-07/README.md)
 - [sesion-08](./sesion-08/README.md)
 - [sesion-09](./sesion-09/README.md)
+- [sesion-10](./sesion-10/README.md)
+- [sesion-11](./sesion-11/README.md)
+
 
 ### tareas
 

@@ -6,3 +6,4 @@
 - [tarea-04](./tarea-04/README.md)
 - [tarea-05](./tarea-05/README.md)
 - [tarea-06](./tarea-06/README.md)
+- [tarea-07](./tarea-06/README.md)
