@@ -37,10 +37,13 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 - [sesion-10](./sesion-10/README.md)
 - [sesion-11](./sesion-11/README.md)
 
-
 ### tareas
 
 - [tareas](./tareas/README.md)
+
+### Redes
+
+- [Intagram del curso](https://www.instagram.com/dppi_udp)
 
 ## repositorios curso
 

@@ -30,3 +30,4 @@ Luego conversamos de la tarea-07
 - <https://mqtt.org/>
 - <https://www.allaboutcircuits.com/technical-articles/introduction-to-capacitive-touch-sensing/>
 - <https://www.emqx.com/en>
+- <https://github.com/fefeliperoar/tacto>
