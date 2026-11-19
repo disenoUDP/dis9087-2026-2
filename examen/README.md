@@ -38,9 +38,19 @@ Cada proyecto tiene su propia subpágina, con estos cinco elementos:
 - Link a la experiencia funcionando en GitHub Pages.
 - Video de la experiencia funcionando.
 
-#### Qué proyectos incluir:
+#### Qué proyectos incluir
 
-- Todos los proyectos del curso, montados en GitHub Pages: Gestos (E01), Dos realidades (E02), Escuchar la imagen (E03 y T06) y Tocar la imagen (E04).
+|#|nombre|se incluye|
+|-|-|-|
+|T01|DISPOSITIVOS DE REALIDAD|no|
+|T02|GATOS|no|
+|T03|mediaPipe y OpenCV|sí|
+|T04|SlitScan|no|
+|T05|Audioreactividad|no|
+|T06|Sonidos|sí|
+|T07|Tacto|sí|
+
+- Todos los proyectos del curso, montados en GitHub Pages
 - Al menos 2 proyectos que no sean del curso: otros ramos, talleres, encargos, trabajos o proyectos personales. Si no son digitales, el video y las imágenes reemplazan al link de la experiencia.
 
 ## 02 · GitHub personal
