@@ -43,6 +43,7 @@ Sala Multiuso. 2do piso Salvador Sanfuentes 2221.
 
 - [tareas](./tareas/README.md)
 - [EXAMEN](./examen/README.md)
+- [entregas examen](./examen/entregas/README.md)
 
 ### Redes
 
